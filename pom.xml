@@ -24,7 +24,11 @@
     <!--父pom 里面才有 dependencyManagement 不要遗漏！-->
     <dependencyManagement>
         <dependencies>
-        
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>2.0.53</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
